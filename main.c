@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    int data1 = -1;
-    unsigned int data2 = 4294967295;
-    printf("%d, %u, %d, %u", data1, data1, data2, data2);
+    char data = -1;
+    printf("%d, %u",data, data);
 }
