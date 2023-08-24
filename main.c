@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main() {
-    puts("Hi~");
+    printf("65의 ASCII 값은 %C입니다.",65);
 }
