@@ -2,5 +2,5 @@
 
 int main() {
     int data = 7;
-    printf("[%d] [%5d]",data, data);
+    printf("[%d] [%05d] [%-5d]",data, data, data);
 }
