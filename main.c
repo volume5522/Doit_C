@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char data = -1;
-    printf("%d, %u",data, data);
+    int data1 = 10;
+    int data2 = 010;
+    int data3 = 0x10;
+
+    printf("%x, %d, %o",data1,data2,data3);
 }
