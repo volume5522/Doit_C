@@ -1,16 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int year = 2015, month = 12, day = 31;
-    day ++;
-    if(day>31){
-        month++;
-        day=1;
-        if(month>12){
-            year++;
-            month=1;
-        }
+    int sum=0,num;
+    for(num=1;num<=5;num++) {
+        printf("num(%d) + sum(%d) =", num, sum);
+        sum = sum + num;
+        printf("%d\n",sum);
     }
-    printf("Date : %d년 %d월 %d일\n",year,month,day);
+    printf("\nResult : num = %d   sum = %d\n",num,sum);
 }
 
