@@ -7,6 +7,7 @@ void main(){
             if(m==5&&n==1)break;
             printf("m(%d) - n(%d)\n",m,n);
         }
+        if(m==5&&n==1)break;
     }
 
 }
