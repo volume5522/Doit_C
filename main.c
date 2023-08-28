@@ -9,5 +9,8 @@ int ShowMultiplication(int step) {
 
 void main()
 {
-    ShowMultiplication(5);
+    int m;
+    for(m=1;m<=9;m++)
+        ShowMultiplication(m);
+
 }
