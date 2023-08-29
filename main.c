@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 void main() {
-    char data[5] = {1, 2, 3, 4, 5};
-    int result = 0, i;
+    char data[6]={'h','a','p','p','y',0};
+    char ment[]={"C programming~"};
 
-    for (i = 0; i < 5; i++) {
-        result = result + data[i];
-    }
-    printf("data 배열의 각 요소의 합은 %d입니다.\n", result);
+    printf("%s\n",data);
+    printf("%s\n",ment);
 }
